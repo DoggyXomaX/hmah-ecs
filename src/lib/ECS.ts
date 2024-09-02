@@ -26,7 +26,7 @@ const createEntity = (name: string, componentTypes: string[], systemNames: strin
 
   const cCount = componentTypes.length;
   for (let i = 0; i < cCount; i++) {
-    const component = findComponentByName(componentTypes[i]);
+    const component = findComponentByType(componentTypes[i]);
     if (component == null) continue;
 
     const clonedComponent = clone(component);
