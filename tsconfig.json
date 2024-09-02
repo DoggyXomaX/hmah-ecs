@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outFile": "dist/index.js",
+    "outDir": "dist",
     "baseUrl": "src",
     "rootDir": "src",
 
