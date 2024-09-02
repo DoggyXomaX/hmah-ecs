@@ -1,8 +1,10 @@
 {
   "version": "1.0.0",
   "author": "doggyxomax",
+  "type": "module",
+  "main": "src/index.ts",
   "scripts": {
-    "build": "tsc src/index.ts dist/index.js",
+    "build": "tsc",
     "run": "node dist/index.js"
   },
   "devDependencies": {

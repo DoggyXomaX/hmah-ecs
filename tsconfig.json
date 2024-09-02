@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outFile": "dist/index.js",
+    "baseUrl": "src",
+    "rootDir": "src",
+
+    "lib": ["DOM", "DOM.Iterable", "ES2017"],
+    "target": "ES2017",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+
+    "strict": true,
+    "downlevelIteration": true
+  },
+
+  "include": ["src"]
+}
