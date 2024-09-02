@@ -1,5 +1,5 @@
-import { TComponent } from './TComponent';
-import {TSystem} from "./TSystem";
+import type { TComponent } from './TComponent';
+import type { TSystem } from './TSystem';
 
 type TEntity = {
   name: string;

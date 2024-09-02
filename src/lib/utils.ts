@@ -96,7 +96,7 @@ const hasNameFast = <T extends TNamed>(arr: T[], name: string) => {
     }
   }
   return false;
-}
+};
 const hasTypeFast = <T extends TTyped>(arr: T[], type: string) => {
   const count = arr.length;
   for (let i = 0; i < count; i++) {

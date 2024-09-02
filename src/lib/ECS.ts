@@ -1,6 +1,5 @@
-import { TComponent } from 'types/TComponent';
-import { TSystem } from 'types/TSystem';
-import { TEntity } from 'types/TEntity';
+import type { TComponent, TSystem, TEntity } from 'types';
+
 import {
   clone,
   findAllByNameFast,
@@ -8,7 +7,9 @@ import {
   findByNameFast,
   findByTypeFast,
   hasNameFast,
-  hasTypeFast, removeNameFast, removeTypeFast
+  hasTypeFast,
+  removeNameFast,
+  removeTypeFast,
 } from './utils';
 
 const components: TComponent[] = [];
