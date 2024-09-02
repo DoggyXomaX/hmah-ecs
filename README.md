@@ -32,8 +32,6 @@ type TSystem = {
 
 ```ts
 // Add entity to the ECS
-import {TComponent} from "./TComponent";
-
 function addEntity(entity: TEntity): void
 
 // Add component to the ECS
