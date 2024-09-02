@@ -2,10 +2,10 @@
   "version": "1.0.0",
   "author": "doggyxomax",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "src/example.ts",
   "scripts": {
     "build": "tsc",
-    "run": "node dist/index.js"
+    "run": "node dist/example.js"
   },
   "devDependencies": {
     "typescript": "^5.5.4"
