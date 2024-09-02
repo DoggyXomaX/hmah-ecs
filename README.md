@@ -7,10 +7,5 @@ Attempt to build ECS in TypeScript.
 npm run build
 ```
 
-## Start
-```shell
-npm start
-```
-
 ## License
 Super MIT boy

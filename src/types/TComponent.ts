@@ -1,7 +1,7 @@
 type TComponent = {
   name: string;
   type: string;
-  data: Record<string, unknown>;
+  data: Record<string, any>; // Is this safe?
   onAdd?: () => void;
 };
 

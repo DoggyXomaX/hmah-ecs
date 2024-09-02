@@ -4,8 +4,7 @@
   "type": "module",
   "main": "src/example.ts",
   "scripts": {
-    "build": "tsc",
-    "run": "node dist/example.js"
+    "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^5.5.4"
