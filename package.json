@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "author": "doggyxomax",
+  "scripts": {
+    "build": "tsc index.ts dist/index.js",
+    "run": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "license": "MIT"
+}
