@@ -9,6 +9,8 @@
     "moduleResolution": "Node",
     "skipLibCheck": true,
 
+    "sourceMap": true,
+
     "strict": true,
     "downlevelIteration": true
   },
