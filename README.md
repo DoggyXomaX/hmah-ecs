@@ -80,7 +80,19 @@ function processAllSystems(void): void
 
 ## Examples
 
-I don't know how to use it btw
+* Create `positionComp` for x, y
+* Create `radiusComp` for radius
+* Maybe `colorComp` for [r, g, b, a]
+* Create `renderSystem` to render balls
+* Create `gravitySystem` to move balls down
+* Create 50 balls entities
+
+### Also
+* Add `gameLoop` with `requestAnimationFrame`
+  * clear canvas context
+  * call `processAllSystems`
+### Result (TADA!!! moving balls)
+![preview](./.assets/preview.gif)
 
 ## Build
 ```shell
