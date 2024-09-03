@@ -54,16 +54,18 @@ addSystem({
   },
 })
 
-const entity = createEntity(
-  'point1',
-  ['positionComp', 'radiusComp', 'colorComp'],
-  ['renderSystem', 'gravitySystem'],
-);
+for (let i = 0; i < 50; i++) {
+  const entity = createEntity(
+    `point${i}`,
+    ['positionComp', 'radiusComp', 'colorComp'],
+    ['renderSystem', 'gravitySystem'],
+  );
 
-entity.components[0].data.x = 100;
-entity.components[0].data.y = 100;
+  entity.components[0].data.x = 20 * i;
+  entity.components[0].data.y = 100;
 
-addEntity(entity);
+  addEntity(entity);
+}
 
 const gameLoop = () => {
   context.fillStyle = 'black';
