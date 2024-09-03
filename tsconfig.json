@@ -3,7 +3,6 @@
     "outDir": "dist",
     "baseUrl": "src",
     "rootDir": "src",
-    "allowImportingTsExtensions": true,
 
     "lib": ["DOM", "DOM.Iterable", "ES2017"],
     "target": "ES2017",
