@@ -3,7 +3,7 @@ import type { TComponent } from './TComponent';
 
 type TSystem = {
   name: string;
-  dependencies: string[];
+  required: string[];
   process(entity: TEntity, components: TComponent[], system: TSystem): void
 };
 
